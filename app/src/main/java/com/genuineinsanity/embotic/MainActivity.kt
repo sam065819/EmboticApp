@@ -9,7 +9,7 @@ import android.view.View
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import android.webkit.WebViewFragment
+
 
 class MainActivity : AppCompatActivity() {
     lateinit var webView: WebView
