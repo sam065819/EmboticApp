@@ -17,11 +17,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         webView = findViewById(R.id.webView)
-        webViewSettings()
-        loading()
-    }
-
-    private fun webViewSettings() {
         webView = findViewById(R.id.webView)
         webView.setInitialScale(1)
         webView.settings.loadWithOverviewMode = true
@@ -45,10 +40,8 @@ class MainActivity : AppCompatActivity() {
                 view?.loadUrl(url)
                 return true
             }
-        }
     }
-    fun loading() {
-        webView = findViewById(R.id.webView)
-        webView.loadUrl(R.string.loadurl.toString())
+        webView.loadUrl("https://dash.embotic.xyz")
+
     }
 }
