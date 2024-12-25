@@ -6,6 +6,8 @@ Releases of the app can be found on Google Play:
 
 TBA
 
+or under [Releases.](https://github.com/sam065819/EmboticApp/releases/)
+
 # Issue tracking
 If you find issues with the app you can create an issue [here.](https://github.com/sam065819/EmboticApp/issues) 
 
