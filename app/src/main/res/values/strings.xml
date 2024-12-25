@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Embotic</string>
+    <string name="loadurl">https://dash.embotic.xyz</string>
 </resources>
