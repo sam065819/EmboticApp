@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         webView = findViewById(R.id.webView)
-        webView = findViewById(R.id.webView)
         webView.setInitialScale(1)
         webView.settings.loadWithOverviewMode = true
         webView.settings.useWideViewPort = true

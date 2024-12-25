@@ -1,9 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Embotic" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
     </style>
-
-    <style name="Theme.Embotic" parent="Base.Theme.Embotic" />
+    <style name="Theme.Embotic" parent="Theme" />
 </resources>
