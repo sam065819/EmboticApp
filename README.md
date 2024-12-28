@@ -2,10 +2,7 @@
 This repository contains full source code, issue tracking and contributions for the Embotic app.
 
 # Release download
-Releases of the app can be found on Google Play:
-
-https://play.google.com/store/apps/details?id=com.genuineinsanity.embotic
-
+Releases of the app can be found on Google Play: https://play.google.com/store/apps/details?id=com.genuineinsanity.embotic 
 or under [Releases.](https://github.com/sam065819/EmboticApp/releases/)
 
 # Issue tracking
