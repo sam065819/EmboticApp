@@ -12,7 +12,7 @@ android {
     defaultConfig {
         applicationId = "com.genuineinsanity.embotic"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 2
         versionName = "v1.1-beta"
 
