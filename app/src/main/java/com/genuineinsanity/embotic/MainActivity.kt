@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         webView.isHorizontalScrollBarEnabled = false
         webView.isClickable = true
         webView.webViewClient = object : WebViewClient() {
+            @Deprecated("can u stop giving me warnings already <3")
             override fun shouldOverrideUrlLoading(
                 view: WebView,
                 url: String
