@@ -1,5 +1,6 @@
 package com.genuineinsanity.embotic
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -12,7 +13,8 @@ import android.webkit.WebViewClient
 
 
 class MainActivity : AppCompatActivity() {
-    lateinit var webView: WebView
+    private lateinit var webView: WebView
+    @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -22,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         webView.settings.useWideViewPort = true
         webView.scrollBarStyle = WebView.SCROLLBARS_INSIDE_OVERLAY
         webView.isScrollbarFadingEnabled = true
+        // "Using setJavaScriptEnabled can introduce XSS vulnerabilities into your application" I have to enable it so
         webView.settings.javaScriptEnabled = true
         webView.settings.domStorageEnabled = true
         webView.settings.allowContentAccess = true
@@ -36,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 view: WebView,
                 url: String
             ): Boolean {
-                view?.loadUrl(url)
+                view.loadUrl(url)
                 return true
             }
     }
