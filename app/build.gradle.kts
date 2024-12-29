@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.genuineinsanity.embotic"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.genuineinsanity.embotic"
